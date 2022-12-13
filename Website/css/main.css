@@ -1,0 +1,305 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,Arial,sans-serif; 
+    height: 100vh;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+.nav-container {
+    background: #C3B1E1;
+}
+header li{
+    list-style-type: none;
+    padding: 1.8em 0em 1em 0.5em;
+}
+header ul{
+    display: flex;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    margin-top: 3em;
+}
+a{
+    display: block;
+    padding: 0 1em;
+}
+.social-headers, .triangle1 {
+    display:none;
+    margin: 0%;
+}
+
+.Main-content{
+    background: #C3B1E1;
+    color: white;
+    display: grid;
+    padding: 2.5em;
+    padding-left: 5em;
+    font-size: 2em;
+    margin-top: -5em;
+}
+.Main-info{
+    display: flex;
+    margin: 0 auto;
+    font-size: .60em;
+    margin-top: -5px;
+    font-weight: bold;
+    color: white;
+}
+.CPD-content{
+    margin-top: 2em;
+    font-size: 20px
+}
+section{
+    padding: 4em 2em;
+    text-align: center;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #A192BB;
+    letter-spacing: .2em;
+    padding: 0em;
+}
+.subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #A192BB;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+.second-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+.third-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #C3B1E1;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+.featured-desc{
+    color: black;
+    margin-bottom: 3em;
+    font-size: .85em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+.skills{
+    background: #C3B1E1;
+}
+.skills-container ul li{
+    background: white;
+    padding: 2em;
+    border-radius: 5em;
+    margin-bottom: 1.5em;
+    list-style-type: none;
+}
+.skill-title{
+    font-weight: bold;
+}
+.icon-container{
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+}
+.icon-container-one{
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    width: 180px;
+}
+.icon-container-two{
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+    width: 100px;
+}
+.skill-title{
+    font-weight: bold;
+}
+.blank-container{
+    background: #A192BB;
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    margin-left: 75em;
+    margin-top: -10em;
+}
+.work{
+    background: #C3B1E1;
+}
+.work-container{
+    color: white;
+}
+.lang{
+    padding-top: 3em;
+}
+.Underline{
+    width: 35%;
+    stroke-width: 1;
+    height: 20px;
+}
+.Underline-white{
+    width: 35%;
+    stroke-width: 1;
+    height: 20px; 
+}
+.Underline-languages{
+    width: 35%;
+    stroke-width: 1;
+    height: 20px; 
+}
+@media only screen and (min-width: 1130px) {
+    .nav-container{
+        display: grid;
+        grid-template-columns: 70% auto;
+    }
+    header{
+        padding: 1em 0em 6em 1em;
+    }
+    .social-headers{
+        display: flex;
+    }
+    .social-headers ul{
+     display: flex;
+     justify-content: space-between;
+     width: 7em;
+     margin-top: 2.5em;
+    }
+    .social-headers li{
+        list-style-type: none;
+        padding: 1em;
+    }
+    .skills-container ul{
+        margin: 0em 2em -9em 3em;
+        display: flex;
+        grid-gap: 2em;
+        width: 1000px;
+    }
+    .left{
+        text-align: left;
+        margin-left: 22em;
+        margin-top: 8em;
+    }
+    .featured-para{
+        display: grid;
+        grid-template-columns: 55% auto;
+        letter-spacing: .08em;
+        line-height: 2.3em;
+    }
+    .work-container{
+        text-align: left;
+        margin-left: 4em;
+        margin-top: 3em;
+        color: white;
+    }
+    .work-desc{
+        display: grid;
+        grid-template-columns: 50% auto;
+        letter-spacing: .08em;
+        line-height: 2.3em;
+    }
+    .work-CPD{
+        display: grid;
+        grid-template-columns: 50% auto;
+        letter-spacing: .08em;
+        line-height: 2.3em;
+    }
+    .CPD1-container{
+        text-align: left;
+        margin-left: 4em;
+        margin-top: 3em;
+        color: white;
+    }
+}
+@media only screen and (min-width: 800px) {
+    header{
+        padding: 1em 0em 6em 3em;
+        font-size: 18px;
+    }
+    .Main-content{
+        background: #C3B1E1;
+        color: white;
+        display: grid;
+        padding: 2.5em;
+        padding-left: 5em;
+        font-size: 2em;
+        margin-top: -5em;
+    }
+    .skills-container ul{
+        display: flex;
+        grid-gap: 2em;
+    }
+}
+@media only screen and (min-width: 400px) {
+    header{
+        padding: 1em 0em 6em 3em;
+        font-size: 18px;
+        text-align: center;
+    }
+    .Main-content{
+        background: #C3B1E1;
+        color: white;
+        display: grid;
+        padding: 2.5em;
+        padding-left: 2.5em;
+        font-size: 2em;
+        margin-top: -5em;
+    }
+}
+.title-cpd{
+    background: #C3B1E1;
+    padding: 0;
+}
+.CPD1{
+    background: #C3B1E1;
+}
+.CPD1-container{
+    color: white;
+}
+.CPD1-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}
+.Underline-whiteCPD{
+    width: 35%;
+    stroke-width: 1;
+    height: 20px; 
+}
+.left-CPD{
+    text-align: left;
+    margin-left: 22em;
+    margin-top: 8em;
+}
+.subtitle-CPD{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #A192BB;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+}

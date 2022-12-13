@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--The nav container has its own div class of 'nav-container' which will allow me to easily edit this later on  during the css stage-->
+    <div class="nav-container">
+        <header>
+            <a href="Index.html"><img src="Images/logo.svg" height="125px" width="125px"></a>
+            <nav>
+<!--This nav section will allow me to add titles that will allow the users to access sections that they are looking for e.g. 'Languages'-->
+                <ul>
+                    <li> <a href="#About_me" class="href">About Me</a></li>
+                    <li> <a href="#My_work" class="href">My Work</a></li>
+                    <li> <a href="#Programming_languages" class="href">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--The social headers that contain the social medias that the users will be able to access these specific pages 
+        they were placed into 'li' tags with classes that would allow me to customise each svg to my liking as well as a parent tag
+         of 'Social-headers' so I can use Display: flex; so that they are all aligned horizontally rather than individually-->
+        <div class="social-headers">
+            <ul>
+                <li><a href="https://www.instagram.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                      </svg>
+                </a></li>
+                <li><a href="https://twitter.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                  </svg>
+                </a></li>
+                <li><a href="https://github.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                  </svg>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <!--<svg xmlns="http://www.w3.org/2000/svg" class="triangle" width="1920" height="855" viewBox="0 0 850 1000">
+        <g id="Group_7" data-name="Group 7" transform="translate(-380 -215)">
+            <path id="Polygon_1" data-name="Polygon 1" d="M302.715,0,605.43,523.173H0Z" transform="translate(1658.111 277.138) rotate(30)" fill="#fff"/>
+            <path id="Polygon_2" data-name="Polygon 2" d="M171.36,0,342.72,286.928H0Z" transform="translate(1251.308 480.859) rotate(-30)" fill="#fff"/>
+            <path id="Polygon_5" data-name="Polygon 5" d="M81.569,0l81.569,141.22H0Z" transform="translate(1326.586 269.687) rotate(-31)" fill="#fff"/>
+            <path id="Polygon_6" data-name="Polygon 6" d="M82.691,0l82.691,143.464H0Z" transform="matrix(0.875, 0.485, -0.485, 0.875, 1468.322, 267.461)" fill="#fff"/>
+            <path id="Polygon_7" data-name="Polygon 7" d="M81.569,0l81.569,141.22H0Z" transform="translate(1255.696 393.989) rotate(-91)" fill="#fff"/>
+        </g>
+    </svg> --->
+    </div>
+    
+    <!--This is the 'Main content' of the landing page, this will be the first thing that the users will see when they gain access 
+        to the page which holds 'Welcome, to my personal portfolio.' This will allow me to use css to edit and customise this to my 
+        liking to make sure it looks correct. -->
+    <div class="Main-content">
+        <div class="content">
+            <h1>Welcome, to my <br> personal portfolio. </h1>
+            <div class="Main-info">
+            <p>Welcome, to my portfolio and the depression fest</p>
+            </div>
+        </div>
+    </div>
+    <!-- The skills container will hold information on my skills e.g. Frontend development and Coding designs- UX-UI. This will give the user a better insight
+         to my knowledge as well as skills in the field as well as them having their own boxes so that they are exposed from the rest of the application making
+         eye catching for the users.-->
+         <!-- This container will also have different classes so that i will be able to edit each section easier and to my liking. As well as making it look more appealing 
+              to the users.-->
+    <section class="skills">
+        <div class="skills-container">
+            <ul>
+                <li class="transitions">
+                    <div class="icon-container-one">
+                        <img src="Images/Div.svg" alt="Div text">
+                    </div>
+                    <p class="title">Frontend Development</p>
+                    <p class="featured-desc skill-desc">I have started my journey with frontend development in early 2022 and have been developing and honing my skills with a small amount of backend being introduced. 
+                    </p>
+                </li>
+                <li class="transitions">
+                    <div class="icon-container-two">
+                        <img src="Images/UX-UI arrow.svg" alt="UX-UI design"/>
+                    </div>
+                    <p class="title">Coding design</p>
+                    <p class="featured-desc skill-desc">I've started designing some of my own websites as well as the UX-UI behind them to make sure they are turning out the way that I envision them to.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!--The about me section will just be a text section that will contain text. This section has 4 classes so that I can edit the 
+    section as a whole with 'Featured' or if I wanted to align the text left I can use the 'left' class as well as edit the 
+    about me paragraph with the 'about-me' class, Finally the subtitle class that will allow me to make singular changes to the
+    Title without it affecting the paragraph-->
+    
+    <!--I also used a section so I could break up the page to make it look more appealing to the users so they arent bombarded with 
+        huge amounts of information as soon as they access the application-->
+    <section id="About_me"class="featured">
+        <div class="left">
+            <div class="about-me">
+                <p class="subtitle">All About Myself</p>
+                <svg xmlns="http://www.w3.org/2000/svg" Class="Underline" width="600" height="1.8" viewBox="10 0 457 1">
+                    <line id="Line_3" data-name="Line 3" x2="457" transform="translate(0 0.5)" fill="none" stroke="#a192bb" stroke-width="1"/>
+                  </svg>
+                <p class="featured-para">I am an 19-year-old friendly University student with a strong mindset, I finish tasks on time as well as the ability to compete them to high standards, which I hope will reflect on my work ethic. Alongside my future aspirations where I’m studying Cyber security at university, through taking a subject like this I hope it will show my desire to achieve great things and to make a difference in the place of work.</p>
+            </div>
+    </section>
+    
+    <!--The section below will allow me to edit the work that i do as well as a small paragraph that i have written about my experiences
+        in I.T--> 
+    <!--I also used a section so I could break up the page to make it look more appealing to the users so they arent bombarded with 
+        huge amounts of information as soon as they access the application-->
+    <section id="My_work" class="work">
+        <div class="work-container">
+        <p class="second-title">All About My Work</p>
+           <svg xmlns="http://www.w3.org/2000/svg" Class="Underline-white" width="600" height="1.8" viewBox="10 0 457 1">
+             <line id="Line_3" data-name="Line 3" x2="457" transform="translate(0 0.5)" fill="none" stroke="#ffffff" stroke-width="1"/>
+           </svg>
+        <p class="work-desc">Over the past couple years I have been progressively creating and producing new things that I was able to add to my own portfolio such as website, websites designs and a recent introduction to cyber languages such as Bash and SQL. </p>
+        <div class="CPD-content">
+        <a href="CDP.html"><b>CDP Content</b></a>
+        </div>
+        <div class="container-temp">
+    </section>
+
+<!-- The section below will contain images of the Programming languages that I have learnt and am currently learning so 
+     users that are viewing the website can see what I know and they get to know a little more me and what I know-->
+    <section id="Programming_languages" class="Languages">
+        <div class="languages-container">
+            <p class="third-title">Programming Languages</p>
+        <svg xmlns="http://www.w3.org/2000/svg" Class="Underline-languages" width="600" height="1.8" viewBox="10 0 457 1">
+            <line id="Line_3" data-name="Line 3" x2="457" transform="translate(0 0.5)" fill="none" stroke="#a192bb" stroke-width="1"/>
+        </svg>
+        <div class="lang">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+                <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+                <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+                <line x1="11" y1="6" x2="11" y2="6.01" />
+                <line x1="13" y1="18" x2="13" y2="18.01" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="100" height="100" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+            </svg>
+        </div>
+
+    </section>
+</body>
+</html>
